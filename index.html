@@ -108,10 +108,10 @@
     var currentDomain = window.location.hostname;
 
     // 2. 拼接阿里云域名购买链接
-    var targetUrl = 'https://wanwang.aliyun.com/buy/commonbuy' +
-      '?spm=a21cy.8155699.J_8962460230.2.2f34340cIpO5aA' +
-      '&domainName=' + encodeURIComponent(currentDomain) +
-      '&scenario=fixedPrice';
+    var targetUrl = 'https://mi.aliyun.com/domain-detail' +
+      '?spm=5176.28712684.0.0.4b964a79zaWU84' +
+      '&domain=' + encodeURIComponent(currentDomain) +
+      '&orgType=undefined&productType=2&domainCartTradeParams=w3i2YvB2oi3Ngway6plx8&scm=true';
 
     // 3. 找到所有具有 aliyun-buy-link 类名的标签并统一更新 href
     var links = document.querySelectorAll('.aliyun-buy-link');
