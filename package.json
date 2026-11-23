@@ -1,0 +1,28 @@
+{
+  "name": "domainshow",
+  "version": "1.0.0",
+  "description": "Domain showcase page with Vercel Web Analytics",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/az031120103/domainshow.git"
+  },
+  "keywords": [
+    "domain",
+    "showcase",
+    "analytics"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/az031120103/domainshow/issues"
+  },
+  "homepage": "https://github.com/az031120103/domainshow#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
